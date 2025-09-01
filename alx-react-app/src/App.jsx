@@ -1,8 +1,9 @@
 import WelcomeMessage from './components/WelcomeMessage';
+import UserProfile from './UserProfile';
 import Header from './components/Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
-import UserProfile from './UserProfile';
+
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div>
       <WelcomeMessage/>
       < MainContent/>
+      <Header />
       
       < UserProfile
         name="Alice" 
