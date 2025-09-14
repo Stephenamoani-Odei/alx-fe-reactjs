@@ -1,5 +1,5 @@
 
-import React, { useContext } from "react";
+import React, {createContext,useContext } from "react";
 import UserContext from "./UserContext";
 
 function UserDetails() {
@@ -12,5 +12,6 @@ function UserDetails() {
     </div>
   );
 }
+
 
 export default UserDetails;
